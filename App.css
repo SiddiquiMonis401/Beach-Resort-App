@@ -1,0 +1,148 @@
+
+.app-wrapper{
+  text-align: center;
+  
+}
+/*home-image-styling*/
+.home-image,
+.room-image{
+  background-image: url('./images/defaultBcg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:relative;
+  width: 100vw;
+  height: 40vw;
+}
+.room-image{
+background-image: url('./images/details-1.jpeg');
+}
+/*ends home image styling*/
+/*NavBar styling*/
+.nav-background{
+  
+  background-color:rgba(192,192,192,0.6); 
+  display: inline-block;
+ 
+}
+.link-li{ 
+  display: inline;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.ul-design{
+  
+  margin-top: 15px;
+ 
+}
+.navbar-link{
+  color: black;
+}
+.navbar-link:hover{
+  color:wheat;
+  text-decoration: none;
+}
+/*ends NavBar styling*/
+/*Banner styling*/
+.banner-design{
+  
+  padding-top: 40px; 
+  width:40%;
+  height: 40%;
+  border-radius: 10px 0px 10px 0px;
+   background-color:rgba(0,0,0,0.5);
+  position: relative;
+  transform: translate(400px,10vh);
+  text-align: center;
+  color:white;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: wheat;
+}
+.link{
+  text-decoration: none;
+  color: wheat;
+}
+.btn-style{
+  display: inline-block;
+}
+.line-under-title{
+  background-color:rgba(250,250,0,0.3);
+  width:30vw;
+  display: inline-block; 
+  height: 10px;
+  padding: 1px;
+  box-shadow: 3px 2px ;
+ 
+}
+/*ends Banner styling*/
+/*Section-services-styling*/
+.section-services{
+  color:wheat;
+  background-color: rgba(0,0,0,0.5);
+
+}
+.section-services span{
+  font-size: 50px;
+  color:wheat;
+
+}
+.card-style{
+  background-color: rgba(0,0,0,0.78);
+}
+.cards-images{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin:auto;
+}
+.card-featured{
+  width: 28rem;
+}
+.single-room-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  height: 20rem;
+  align-content:center;
+  grid-gap: 10px;
+ 
+
+}
+.images-card{
+  height: 12rem;
+  box-shadow: -2px 1px grey;
+  
+} 
+
+.form-group{
+  width:90vw;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-areas: "type  capacity  checkbox1 checkbox2";
+  grid-template-rows: 50px;
+  text-align: center;
+  font-weight: 200px;
+  text-justify: inter-cluster;
+  color:black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+                          
+}
+.capacity-selection{
+ grid-area: capacity;
+ border-radius:0px 10px 0px 10px;
+}
+.type-selection{
+  grid-area: type;
+
+}
+.check-box-1{
+  grid-area: checkbox1;
+}
+.check-box-2{
+ grid-area:checkbox2;
+}
